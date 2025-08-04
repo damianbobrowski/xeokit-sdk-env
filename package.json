@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rolldown --config rolldown.config.mjs --watch"
+    "dev": "rolldown --config rolldown.config.mjs --watch",
+    "dev:create": "echo 'export * from \"../../dist/src/index.js\";' > xeokit-sdk/dist/xeokit-sdk.min.es.js",
+    "dev:reset": "cd xeokit-sdk && git checkout ./dist/xeokit-sdk.min.es.js"
   },
   "type": "module",
   "keywords": [],
