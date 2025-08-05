@@ -29,6 +29,13 @@ git submodule update --init --recursive
 
 ### Install Dependencies
 
+Inside submodule:
+```bash
+cd xeokit-sdk
+npm install
+```
+
+Inside root:
 ```bash
 pnpm install
 ```
