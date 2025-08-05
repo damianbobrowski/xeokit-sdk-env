@@ -1,0 +1,3 @@
+[submodule "xeokit-sdk"]
+	path = xeokit-sdk
+	url = https://github.com/xeokit/xeokit-sdk.git
