@@ -8,7 +8,8 @@ export default defineConfig({
     output: [
         {
             dir: './dist',
-            preserveModules: true
+            preserveModules: true,
+            sourcemap: true,
         }
     ],
     watch: {
