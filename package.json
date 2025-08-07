@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rolldown --config rolldown.config.mjs --watch",
-    "dev:link": "echo 'export * from \"../../dist/src/index.js\";' > xeokit-sdk/dist/xeokit-sdk.min.es.js",
-    "dev:unlink": "cd xeokit-sdk && git checkout ./dist/xeokit-sdk.min.es.js"
+    "dev:link": "echo 'export * from \"../../dist/src/index.js\";' > xeokit-sdk/dist/xeokit-sdk.min.es.js && echo 'export * from \"../../dist/src/index.js\";' > xeokit-sdk/dist/xeokit-sdk.es.js",
+    "dev:unlink": "cd xeokit-sdk && git checkout ./dist/xeokit-sdk.min.es.js && git checkout ./dist/xeokit-sdk.es.js"
   },
   "type": "module",
   "keywords": [],
